@@ -1,0 +1,32 @@
+[
+    {
+        "src": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "type": "video/mp4",
+        "alt": "Big Buck Bunny 1",
+        "title": "Big Buck Bunny Adventure"
+    },
+    {
+        "src": "https://www.w3schools.com/html/movie.mp4",
+        "type": "video/mp4",
+        "alt": "The Movie",
+        "title": "The Classic Movie"
+    },
+    {
+        "src": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "type": "video/mp4",
+        "alt": "Big Buck Bunny 2",
+        "title": "Big Buck Bunny Returns"
+    },
+    {
+        "src": "https://www.w3schools.com/html/movie.mp4",
+        "type": "video/mp4",
+        "alt": "The Movie 2",
+        "title": "Movie Sequel"
+    },
+    {
+        "src": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "type": "video/mp4",
+        "alt": "Big Buck Bunny 3",
+        "title": "Big Buck Bunny Finale"
+    }
+]

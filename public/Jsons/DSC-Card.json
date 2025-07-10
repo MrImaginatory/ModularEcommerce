@@ -1,0 +1,26 @@
+[
+  {
+    "title": "24-Hr Dispatch",
+    "buttonText": "SHOP NOW",
+    "imageUrl": "/WebSiteImages/CollectionCards/collectionCards (1).jpg",
+    "cardUrl": "#"
+  },
+  {
+    "title": "Wedding Wardrobe",
+    "buttonText": "SHOP NOW",
+    "imageUrl": "/WebSiteImages/CollectionCards/collectionCards (2).jpg",
+    "cardUrl": "#"
+  },
+  {
+    "title": "New Wedding ready Sarees",
+    "buttonText": "SHOP NOW",
+    "imageUrl": "/WebSiteImages/CollectionCards/collectionCards (3).jpg",
+    "cardUrl": "#"
+  },
+  {
+    "title": "Forever Vows",
+    "buttonText": "SHOP NOW",
+    "imageUrl": "/WebSiteImages/CollectionCards/collectionCards (4).jpg",
+    "cardUrl": "#"
+  }
+]

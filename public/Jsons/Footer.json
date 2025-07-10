@@ -1,0 +1,135 @@
+{
+  "sections": [
+    {
+      "title": "DESIGNER WEAR",
+      "links": [
+        "Salwar Kameez",
+        "Sarees",
+        "Lehengas",
+        "Gowns",
+        "Kidswear",
+        "Mens",
+        "Accessories",
+        "Celebrity Wear",
+        "Bridal Wedding Dresses"
+      ]
+    },
+    {
+      "title": "ABOUT US",
+      "links": [
+        "About Us",
+        "Contact Us",
+        "Blog",
+        "Web Stories",
+        "Testimonial",
+        "Press",
+        "Our Stores",
+        "KAKEI Fashion Show",
+        "KAKEI Influencers"
+      ]
+    },
+    {
+      "title": "POLICIES",
+      "links": [
+        "Term & Conditions",
+        "Shipping",
+        "Returns",
+        "Privacy Policy",
+        "Privacy Policy for APP",
+        "Payment Policy",
+        "Customization Changes"
+      ]
+    },
+    {
+      "title": "MY ACCOUNT",
+      "links": [
+        "Shipping Bag",
+        "Order History",
+        "Order Tracking",
+        "Buy in bulk",
+        "Video Call Appointment",
+        "Buying Guide"
+      ]
+    },
+    {
+      "title": "SAFE & SECURE PAYMENT",
+       "images": [
+        "/WebSiteImages/Payments/MasterCard.svg",
+        "/WebSiteImages/Payments/Visa.svg",
+        "/WebSiteImages/Payments/Rupay.svg",
+        "/WebSiteImages/Payments/UPI.svg"
+
+      ]
+    },
+    {
+      "title": "LATEST ETHNIC COLLECTION:",
+      "links": [
+        "KAKEI Culture",
+        "Bride & Banarasi",
+        "Dark Romance",
+        "La Soirée",
+        "ZONA",
+        "KAKEI x Alanna Pandey Collections",
+        "Resort Prints",
+        "NOOR",
+        "RUHI",
+        "Zoyre",
+        "home"
+      ]
+    },
+    {
+      "title": "NEW ARRIVAL",
+      "links": [
+        "Latest Salwar Suits",
+        "Latest Sarees",
+        "Latest Lehengas",
+        "Latest Men's wear"
+      ]
+    },
+    {
+      "title": "BEST SELLER",
+      "links": [
+        "Best Selling Salwar Suits",
+        "Best Selling Sarees",
+        "Best Selling Lehengas",
+        "Best Selling Gowns",
+        "Best Selling Men's wear"
+      ]
+    },
+    {
+      "title": "QUICK LINKS",
+      "links": [
+        "Sale",
+        "Suits Under INR 12000",
+        "Sarees Under INR 12000",
+        "Lehengas Under INR 24000",
+        "Men's Wear Under INR 12000",
+        "Yellow Classics",
+        "Weave Sarees",
+        "Jumpsuit",
+        "Festive Collection",
+        "Engagement",
+        "Wedding",
+        "Sangeet"
+      ]
+    },
+    {
+      "title": "MEASUREMENT",
+      "links": [
+        "Saree and Blouse",
+        "Salwar and Kameez",
+        "Lehenga and Blouse",
+        "Gowns",
+        "Size Chart",
+        "Moderately Size Guide"
+      ]
+    }
+  ],
+  "services": [
+    "Free Shipping*",
+    "Easy Returns*",
+    "Custom Fitting"
+  ],
+  "shippingInfo": "We Ship Across the World United States, United Kingdom, Canada, Australia, India",
+  "copyright": "© 2007 - 2025 All Rights Reserved."
+}

@@ -1,0 +1,26 @@
+{
+    "mainNavLinks": [
+        { "name": "WOMEN", "url": "womens" },
+        { "name": "MEN", "url": "mens" },
+        { "name": "BRIDAL", "url": "bridal" },
+        { "name": "LUXE", "url": "luxe" },
+        { "name": "Find Store", "url": "store" }
+    ],
+    "secondaryNavLinks": [
+        { "name": "BestSeller", "url": "#" },
+        { "name": "Bridal", "url": "#" },
+        { "name": "Saree", "url": "#" },
+        { "name": "Salwar kameez", "url": "#" },
+        { "name": "Lehengas", "url": "#" },
+        { "name": "Indo Western", "url": "#" },
+        { "name": "Blouse", "url": "#" },
+        { "name": "Men", "url": "#" },
+        { "name": "Co-Ords sets", "url": "#" },
+        { "name": "Gowns", "url": "#" },
+        { "name": "Wedding", "url": "#" },
+        { "name": "Ready To Ship", "url": "#" },
+        { "name": "Collection", "url": "#" },
+        { "name": "New", "url": "#" },
+        { "name": "Sale", "url": "#" }
+    ]
+}

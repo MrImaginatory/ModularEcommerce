@@ -1,0 +1,60 @@
+/* Second Div: Feature Icons Section */
+.feature-icons-section {
+    padding: 1.5rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+    align-items: center;
+}
+
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 8rem; /* w-32 */
+    padding: 1rem; /* p-4 */
+}
+
+.feature-item span{
+    font-size: 5rem;
+}
+
+.feature-item img{
+    height: 4rem;
+}
+
+@media (min-width: 640px) { /* sm:w-40 */
+    .feature-item {
+        width: 10rem;
+    }
+}
+
+.feature-item .material-icons {
+    font-size: 3.125rem; /* text-5xl */
+    color: #8b5cf6; /* text-purple-600 */
+    margin-bottom: 0.75rem; /* mb-3 */
+}
+
+.feature-item p {
+    color: #374151; /* text-gray-700 */
+    font-weight: 500; /* font-medium */
+    font-size: 0.875rem; /* text-sm */
+}
+
+@media (min-width: 640px) { /* sm:text-base */
+    .feature-item p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px){
+    .feature-icons-section{
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+    }
+}

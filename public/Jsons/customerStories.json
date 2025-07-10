@@ -1,0 +1,99 @@
+
+[
+  {
+    "id": 1,
+    "imageUrl": "/WebSiteImages/CustomerImages/customer_ (2).jpeg",
+    "userName": "John Doe",
+    "userCity": "New York",
+    "userMessage": "I find the designs supremely unique and the feel is so comfortable after wearing them. I can vouch that there were plenty of folks reaching out to me in all the events just to ask who am I wearing!",
+    "productLink": "/products/designer-collection"
+  },
+  {
+    "id": 2,
+    "imageUrl": "/WebSiteImages/CustomerImages/customer_ (1).jpeg",
+    "userName": "Jane Smith",
+    "userCity": "Los Angeles",
+    "userMessage": "The quality is exceptional and I receive compliments every time I wear this.",
+    "productLink": "/products/premium-line"
+  },
+  {
+    "id": 3,
+    "imageUrl": "/WebSiteImages/CustomerImages/customer_ (3).jpeg",
+    "userName": "Alice Johnson",
+    "userCity": "Chicago",
+    "userMessage": "Absolutely love the craftsmanship and attention to detail. It's my go-to outfit for special occasions!",
+    "productLink": "/products/artisan-series"
+  },
+  {
+    "id": 4,
+    "imageUrl": "/WebSiteImages/CustomerImages/customer_ (4).jpeg",
+    "userName": "Michael Brown",
+    "userCity": "Houston",
+    "userMessage": "The fabric is top-notch and the fit is perfect. I've never felt more confident in my wardrobe choices.",
+    "productLink": "/products/elite-range"
+  },
+  {
+    "id": 5,
+    "imageUrl": "/WebSiteImages/CustomerImages/customer_ (5).jpeg",
+    "userName": "Emily Davis",
+    "userCity": "Phoenix",
+    "userMessage": "Every piece I've bought has exceeded my expectations. The style is timeless and the comfort is unmatched.",
+    "productLink": "/products/classic-collection"
+  },
+  {
+    "id": 6,
+    "imageUrl": "/WebSiteImages/CustomerImages/customer_ (6).jpeg",
+    "userName": "David Wilson",
+    "userCity": "Philadelphia",
+    "userMessage": "I appreciate the unique designs that stand out in any crowd. It's clear that a lot of thought goes into each piece.",
+    "productLink": "/products/signature-line"
+  },
+  {
+    "id": 7,
+    "imageUrl": "https://example.com/path/to/image7.jpg",
+    "userName": "Sarah Martinez",
+    "userCity": "San Antonio",
+    "userMessage": "The combination of style and comfort is rare to find. I'm thrilled with my purchases and always look forward to new releases.",
+    "productLink": "/products/luxury-series"
+  },
+  {
+    "id": 8,
+    "imageUrl": "/WebSiteImages/CustomerImages/customer_ (7).jpeg",
+    "userName": "James Anderson",
+    "userCity": "San Diego",
+    "userMessage": "I've received countless compliments on the pieces I own. The quality is evident and the designs are always on point.",
+    "productLink": "/products/exclusive-range"
+  },
+  {
+    "id": 9,
+    "imageUrl": "https://example.com/path/to/image9.jpg",
+    "userName": "Jessica Thomas",
+    "userCity": "Dallas",
+    "userMessage": "The attention to detail and the quality of materials used are exceptional. I feel amazing every time I wear these outfits.",
+    "productLink": "/products/designer-series"
+  },
+  {
+    "id": 10,
+    "imageUrl": "/WebSiteImages/CustomerImages/customer_ (8).jpeg",
+    "userName": "Robert Taylor",
+    "userCity": "San Jose",
+    "userMessage": "I'm consistently impressed with the unique designs and the comfort level. It's my favorite brand by far.",
+    "productLink": "/products/premium-collection"
+  },
+  {
+    "id": 11,
+    "imageUrl": "https://example.com/path/to/image11.jpg",
+    "userName": "Lisa Jackson",
+    "userCity": "Austin",
+    "userMessage": "The pieces are not only stylish but also incredibly comfortable. I always feel my best when wearing them.",
+    "productLink": "/products/artisan-collection"
+  },
+  {
+    "id": 12,
+    "imageUrl": "/WebSiteImages/CustomerImages/customer_ (9).jpeg",
+    "userName": "Kevin White",
+    "userCity": "Jacksonville",
+    "userMessage": "The quality and design are unparalleled. I receive compliments every time I wear something from this brand.",
+    "productLink": "/products/elite-series"
+  }
+]

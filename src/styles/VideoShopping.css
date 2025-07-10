@@ -1,0 +1,111 @@
+.video-shopping-container {
+    width: 80%;
+    height: 300px; /* Fixed height for demonstration, adjust for responsiveness */
+    background: url('/video-shopping-banner.jpg');
+    overflow: hidden;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.video-shopping-background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the container */
+    filter: brightness(0.6); /* Darken the image for text readability */
+    z-index: 1;
+}
+
+.video-shopping-content {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    /* max-width: 600px; */
+}
+
+.video-shopping-title {
+    font-size: 2em;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.video-shopping-subtitle {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+.video-shopping-input {
+    width: 40%; /* Adjust for padding */
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+}
+
+.video-shopping-input::placeholder {
+    color: #888;
+}
+
+.video-shopping-button {
+    width: 40%;
+    padding: 15px 20px;
+    background-color: #e67e22; /* Orange color from the image */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.video-shopping-button:hover {
+    background-color: #d35400; /* Darker orange on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .video-shopping-container {
+        width: 100%;
+    }
+    .video-shopping-title {
+        font-size: 2em;
+    }
+    .video-shopping-subtitle {
+        font-size: 1em;
+    }
+    .video-shopping-input,
+    .video-shopping-button {
+        padding: 12px 15px;
+        font-size: 0.95em;
+    }
+}
+
+@media (max-width: 480px) {
+    .video-shopping-container {
+        width: 100%;
+        font-size: 0.9rem;
+        border-radius: 0; /* Full width on small screens */
+    }
+    .video-shopping-title {
+        font-size: 1.8em;
+    }
+    .video-shopping-subtitle {
+        font-size: 0.9em;
+    }
+    .video-shopping-content {
+        padding: 15px;
+    }
+}

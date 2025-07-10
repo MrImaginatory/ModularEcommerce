@@ -1,0 +1,282 @@
+.threeD-carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px; /* Max width for desktop */
+    height: 50rem; /* Fixed height for the carousel area */
+    perspective: 1000px; /* Defines the 3D space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 auto; /* Center the container */
+}
+
+.threeD-carousel-track {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; /* Ensures children are positioned in 3D */
+    transition: transform 0.6s ease-in-out; /* Smooth transition for carousel movement */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.threeD-carousel-item {
+    position: absolute;
+    width: 25rem; /* Base width for videos */
+    height: 45rem; /* Base height for videos */
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out, height 0.6s ease-in-out, width 0.6s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden; /* Prevents flickering on some browsers */
+}
+
+.threeD-carousel-item video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Styles for different positions */
+.threeD-carousel-item.threeD-center {
+    transform: translateX(0) translateZ(0) scale(1);
+    opacity: 1;
+    height: 45rem; /* Full height for center */
+    width: 25rem; /* Full width for center */
+    z-index: 10;
+}
+
+.threeD-carousel-item.threeD-left-1 {
+    transform: translateX(-15rem) translateZ(-150px) scale(0.8);
+    opacity: 1; /* Keep opacity at 1 as per your provided CSS */
+    height: 45rem; /* Keep height at 45rem as per your provided CSS */
+    width: 25rem; /* Keep width at 25rem as per your provided CSS */
+    z-index: 9;
+}
+
+.threeD-carousel-item.threeD-left-2 {
+    transform: translateX(-30rem) translateZ(-300px) scale(0.6);
+    opacity: 1; /* Keep opacity at 1 as per your provided CSS */
+    height: 45rem; /* Keep height at 45rem as per your provided CSS */
+    width: 25rem; /* Keep width at 25rem as per your provided CSS */
+    z-index: 8;
+}
+
+.threeD-carousel-item.threeD-right-1 {
+    transform: translateX(15rem) translateZ(-150px) scale(0.8);
+    opacity: 1; /* Keep opacity at 1 as per your provided CSS */
+    height: 45rem; /* Keep height at 45rem as per your provided CSS */
+    width: 25rem; /* Keep width at 25rem as per your provided CSS */
+    z-index: 9;
+}
+
+.threeD-carousel-item.threeD-right-2 {
+    transform: translateX(30rem) translateZ(-300px) scale(0.6);
+    opacity: 1; /* Keep opacity at 1 as per your provided CSS */
+    height: 45rem; /* Keep height at 45rem as per your provided CSS */
+    width: 25rem; /* Keep width at 25rem as per your provided CSS */
+    z-index: 8;
+}
+
+/* Hidden items further out */
+.threeD-carousel-item.threeD-hidden-left,
+.threeD-carousel-item.threeD-hidden-right {
+    opacity: 0;
+    transform: scale(0.1);
+    pointer-events: none; /* Make them non-interactive */
+}
+
+/* Video controls styling */
+.threeD-video-controls {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0; /* Hidden by default */
+    pointer-events: none; /* No interaction when hidden */
+    transition: opacity 0.3s ease;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    z-index: 11; /* Ensure controls are above the video */
+}
+
+.threeD-carousel-item.threeD-center .threeD-video-controls {
+    opacity: 1; /* Visible when center */
+    pointer-events: auto; /* Interactive when center */
+}
+
+.threeD-video-title {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    flex-grow: 1;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 10px; /* Space between title and buttons */
+}
+
+.threeD-video-button {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.threeD-video-button:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+
+.threeD-carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Lighter background */
+    color: #333; /* Darker text color */
+    border: 1px solid #ccc; /* Subtle border */
+    padding: 10px; /* Equal padding for square shape */
+    cursor: pointer;
+    font-size: 1.5em; /* Adjusted font size for icons */
+    border-radius: 4px; /* Square with slight rounded corners */
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 40px; /* Fixed width for square */
+    height: 40px; /* Fixed height for square */
+    box-sizing: border-box; /* Include padding and border in width/height */
+}
+
+.threeD-carousel-button:hover {
+    background-color: rgba(255, 255, 255, 0.95); /* Lighter on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* More prominent shadow on hover */
+}
+
+.threeD-carousel-button:active {
+    transform: translateY(-50%) scale(0.95);
+}
+
+.threeD-carousel-button.threeD-prev {
+    left: 20px;
+}
+
+.threeD-carousel-button.threeD-next {
+    right: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .threeD-carousel-container {
+        height: 400px;
+        max-width: 100%;
+    }
+
+    .threeD-carousel-item {
+        width: 200px;
+        height: 320px;
+    }
+
+    .threeD-carousel-item.threeD-center {
+        height: 320px;
+    }
+
+    .threeD-carousel-item.threeD-left-1 {
+        transform: translateX(-150px) translateZ(-100px) scale(0.7);
+        height: 224px; /* 70% height */
+    }
+
+    .threeD-carousel-item.threeD-left-2 {
+        transform: translateX(-250px) translateZ(-200px) scale(0.5);
+        height: 160px; /* 50% height */
+    }
+
+    .threeD-carousel-item.threeD-right-1 {
+        transform: translateX(150px) translateZ(-100px) scale(0.7);
+        height: 224px; /* 70% height */
+    }
+
+    .threeD-carousel-item.threeD-right-2 {
+        transform: translateX(250px) translateZ(-200px) scale(0.5);
+        height: 160px; /* 50% height */
+    }
+
+    .threeD-carousel-button {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    .threeD-carousel-button.threeD-prev {
+        left: 10px;
+    }
+
+    .threeD-carousel-button.threeD-next {
+        right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .threeD-carousel-container {
+        height: 300px;
+    }
+
+    .threeD-carousel-item {
+        width: 150px;
+        height: 240px;
+    }
+
+    .threeD-carousel-item.threeD-center {
+        height: 240px;
+    }
+
+    .threeD-carousel-item.threeD-left-1 {
+        transform: translateX(-100px) translateZ(-80px) scale(0.6);
+        height: 144px; /* 60% height */
+    }
+
+    .threeD-carousel-item.threeD-left-2 {
+        transform: translateX(-180px) translateZ(-150px) scale(0.4);
+        height: 96px; /* 40% height */
+    }
+
+    .threeD-carousel-item.threeD-right-1 {
+        transform: translateX(100px) translateZ(-80px) scale(0.6);
+        height: 144px; /* 60% height */
+    }
+
+    .threeD-carousel-item.threeD-right-2 {
+        transform: translateX(180px) translateZ(-150px) scale(0.4);
+        height: 96px; /* 40% height */
+    }
+
+    .threeD-carousel-button {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+    }
+}

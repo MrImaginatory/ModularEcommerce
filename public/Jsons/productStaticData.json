@@ -1,0 +1,33 @@
+{
+  "promoBanner": {
+    "title": "Festive Drop '25",
+    "subtitle": "Rabbi-Ready & Rioja-Perfect Looks",
+    "offer": "Shop for INR 11,999 get 7% off* | Use Code: FEST7"
+  },
+  "socialProof": "@ % people are sharing this item. Don't wait!",
+  "deliveryEstimate": "Estimated delivery : Monday, 14 Jul 2025",
+  "benefits": [
+    "100% Purchase Protection",
+    "5 Days easy returns*",
+    "Assured Quality",
+    "Free shipping*"
+  ],
+  "tabs": [
+    { 
+      "name": "Product Details",
+      "content": "Detailed product information will be displayed here."
+    },
+    { 
+      "name": "Style & Fit Tips",
+      "content": "This item fits true to size. We recommend ordering your usual size. For a relaxed fit, size up."
+    },
+    { 
+      "name": "Shipping & Returns",
+      "content": "Free shipping on all orders. Easy returns within 5 days of delivery."
+    },
+    { 
+      "name": "FAQ",
+      "content": "Q: How do I care for this item?\nA: Machine wash cold with like colors. Tumble dry low."
+    }
+  ]
+}

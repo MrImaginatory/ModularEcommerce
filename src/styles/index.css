@@ -1,0 +1,41 @@
+:root{
+  --color-black: #000000;
+  --color-brown: #AA6437;
+  --color-dark-gray: #262433;
+  --color-light-beige: #F3DAC8;
+  --color-light-green: #D9EDD8;
+  --color-dark-teal: #223330;
+  --color-white:#FFFFFF;
+  --color-gray-light:#E0E0E0;
+  --color-orange: #FFA500;
+  --color-pink: #ffe5e5;
+
+  /* Headline Fonts */
+  --font-headline-medium: "Futura Now Headline Medium", sans-serif;
+  --font-headline-extra-bold: "Futura LT Pro 650 Extra-bold", sans-serif;
+
+  /* Text/Body Fonts */
+  --font-text-regular: "Futura Now text Regular", sans-serif;
+  --font-text-medium: "Futura LT Pro Medium", sans-serif;
+
+  /* Display/Branding Fonts */
+  --font-display-regular: "Noto Serif Display Regular", serif;
+  --font-branding-regular: "NewYork Regular", serif;
+
+  /* General Use Fonts */
+  --font-base-regular: "Futura LT Pro Book Regular", sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-base-regular);
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+}
+
+a{
+  text-decoration: none;
+}

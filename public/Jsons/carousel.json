@@ -1,0 +1,18 @@
+[
+  {
+    "image": "/WebSiteImages/Slider/SliderImages (1).jpg",
+    "link": "https://example.com/festive-drop-25"
+  },
+  {
+    "image": "/WebSiteImages/Slider/SliderImages (2).jpg",
+    "link": "https://example.com/summer-collection"
+  },
+  {
+    "image": "/WebSiteImages/Slider/SliderImages (3).jpg",
+    "link": "https://example.com/new-arrivals"
+  },
+  {
+    "image": "/WebSiteImages/Slider/SliderImages (4).jpg",
+    "link": "https://example.com/special-offers"
+  }
+]

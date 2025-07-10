@@ -1,0 +1,105 @@
+{
+  "success": true,
+  "data": [
+    {
+      "productId": "89cdba3c-eed3-4392-b644-3f7101f22cb8",
+      "imageUrl": "/WebSiteImages/Products/products01.jpg",
+      "hoverImageUrl": "/WebSiteImages/Products/products01.jpg",
+      "title": "Silk Saree with Golden Border",
+      "price": "$89.99",
+      "originalPrice": "$99.99",
+      "discount": "10% Off",
+      "linkUrl": "89cdba3c-eed3-4392-b644-3f7101f22cb8"
+    },
+    {
+      "productId": "b82969e9-9bcf-42ba-8bc4-ba9b907faaf3",
+      "imageUrl": "/WebSiteImages/Products/products02.jpg",
+      "hoverImageUrl": "/WebSiteImages/Products/products02.jpg",
+      "title": "Cotton Kurta for Men",
+      "price": "$24.95",
+      "originalPrice": "$29.95",
+      "discount": "17% Off",
+      "linkUrl": "b82969e9-9bcf-42ba-8bc4-ba9b907faaf3"
+    },
+    {
+      "productId": "5eb27ebb-3c4d-4c56-ad6d-52f5012d1f50",
+      "imageUrl": "/WebSiteImages/Products/products03.jpg",
+      "hoverImageUrl": "/WebSiteImages/Products/products03.jpg",
+      "title": "Banarasi Silk Lehenga",
+      "price": "$129.99",
+      "originalPrice": "$149.99",
+      "discount": "13% Off",
+      "linkUrl": "5eb27ebb-3c4d-4c56-ad6d-52f5012d1f50"
+    },
+    {
+      "productId": "f9fad89c-3648-43af-ad68-21d43fcbe27f",
+      "imageUrl": "/WebSiteImages/Products/products04.jpg",
+      "hoverImageUrl": "/WebSiteImages/Products/products04.jpg",
+      "title": "Handwoven Shawl",
+      "price": "$45.99",
+      "originalPrice": "$55.99",
+      "discount": "18% Off",
+      "linkUrl": "f9fad89c-3648-43af-ad68-21d43fcbe27f"
+    },
+    {
+      "productId": "a52ba38a-2227-4c4b-a449-9ac3ae396520",
+      "imageUrl": "/WebSiteImages/Products/products05.jpg",
+      "hoverImageUrl": "/WebSiteImages/Products/products05.jpg",
+      "title": "Traditional Dhoti Set",
+      "price": "$32.99",
+      "originalPrice": "$32.99",
+      "discount": "",
+      "linkUrl": "a52ba38a-2227-4c4b-a449-9ac3ae396520"
+    },
+    {
+      "productId": "50cd0641-badc-4016-a3f4-ea6fe7d98e3b",
+      "imageUrl": "/WebSiteImages/Products/products06.jpg",
+      "hoverImageUrl": "/WebSiteImages/Products/products06.jpg",
+      "title": "Embroidered Salwar Kameez",
+      "price": "$54.50",
+      "originalPrice": "$64.50",
+      "discount": "16% Off",
+      "linkUrl": "50cd0641-badc-4016-a3f4-ea6fe7d98e3b"
+    },
+    {
+      "productId": "7e8f4a2d-1b9c-4e3d-9f6a-5c3b8d7e9f01",
+      "imageUrl": "/WebSiteImages/Products/products07.jpg",
+      "hoverImageUrl": "/WebSiteImages/Products/products07.jpg",
+      "title": "Pashmina Stole",
+      "price": "$62.00",
+      "originalPrice": "$72.00",
+      "discount": "14% Off",
+      "linkUrl": "7e8f4a2d-1b9c-4e3d-9f6a-5c3b8d7e9f01"
+    },
+    {
+      "productId": "3c6d5e8f-2a1b-4c9d-8e7f-6d5c4b3a2e19",
+      "imageUrl": "/WebSiteImages/Products/products08.jpg",
+      "hoverImageUrl": "/WebSiteImages/Products/products08.jpg",
+      "title": "Bandhani Print Dupatta",
+      "price": "$28.25",
+      "originalPrice": "$38.25",
+      "discount": "26% Off",
+      "linkUrl": "3c6d5e8f-2a1b-4c9d-8e7f-6d5c4b3a2e19"
+    },
+    {
+      "productId": "9d8e7f6c-5b4a-3c2d-1e0f-9a8b7c6d5e4f",
+      "imageUrl": "/WebSiteImages/Products/products09.jpg",
+      "hoverImageUrl": "/WebSiteImages/Products/products09.jpg",
+      "title": "Kalamkari Printed Kurta",
+      "price": "$39.99",
+      "originalPrice": "$49.99",
+      "discount": "20% Off",
+      "linkUrl": "9d8e7f6c-5b4a-3c2d-1e0f-9a8b7c6d5e4f"
+    },
+    {
+      "productId": "2e3d4c5b-6a7b-8c9d-0e1f-2a3b4c5d6e7f",
+      "imageUrl": "/WebSiteImages/Products/products10.jpg",
+      "hoverImageUrl": "/WebSiteImages/Products/products10.jpg",
+      "title": "Traditional Angrakha Top",
+      "price": "$47.99",
+      "originalPrice": "$57.99",
+      "discount": "17% Off",
+      "linkUrl": "2e3d4c5b-6a7b-8c9d-0e1f-2a3b4c5d6e7f"
+    }
+  ]
+}

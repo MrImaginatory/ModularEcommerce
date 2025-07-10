@@ -1,0 +1,40 @@
+/* Base Grid Layout */
+.DSC-card-grid {
+  display: grid;
+  gap: 1.5rem;
+  padding: 1rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Desktop Layout (4 columns) */
+@media (min-width: 1024px) {
+  .DSC-card-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Tablet Layout (2 columns) */
+@media (max-width: 1023px) and (min-width: 768px) {
+  .DSC-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+  }
+}
+
+/* Mobile Layout (2 columns) */
+@media (max-width: 767px) {
+  .DSC-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+        width: 100%;
+  }
+}
+
+/* Small Mobile (single column when very small) */
+@media (max-width: 480px) {
+  .DSC-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+  }
+}

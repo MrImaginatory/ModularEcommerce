@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "The Gen Z Store",
+    "imageUrl": "/WebSiteImages/CuratedColletions/curated_collections (1).jpg",
+    "shopUrl": "/shop/genz"
+  },
+  {
+    "id": 2,
+    "title": "Roho Chie",
+    "imageUrl": "/WebSiteImages/CuratedColletions/curated_collections (2).jpg",
+    "shopUrl": "/shop/roho"
+  },
+  {
+    "id": 3,
+    "title": "Sequin Soiree",
+    "imageUrl": "/WebSiteImages/CuratedColletions/curated_collections (3).jpg",
+    "shopUrl": "/shop/sequin"
+  },
+  {
+    "id": 4,
+    "title": "Cape Styles",
+    "imageUrl": "/WebSiteImages/CuratedColletions/curated_collections (4).jpg",
+    "shopUrl": "/shop/cape"
+  },
+  {
+    "id": 5,
+    "title": "Ivan Chai",
+    "imageUrl": "/WebSiteImages/CuratedColletions/curated_collections (5).jpg",
+    "shopUrl": "/shop/ivan"
+  },
+  {
+    "id": 6,
+    "title": "Summer Collection",
+    "imageUrl": "/WebSiteImages/CuratedColletions/curated_collections (6).jpg",
+    "shopUrl": "/shop/summer"
+  },
+  {
+    "id": 7,
+    "title": "Winter Essentials",
+    "imageUrl": "/WebSiteImages/CuratedColletions/curated_collections (7).jpg",
+    "shopUrl": "/shop/winter"
+  }
+]

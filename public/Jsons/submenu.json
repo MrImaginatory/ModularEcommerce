@@ -1,0 +1,123 @@
+{
+    "submenuCategories": [
+        {
+            "name": "Occasion",
+            "id": "occasion-content",
+            "items": [
+                { "name": "Casual Wear", "imageUrl": "https://placehold.co/150x150/E0BBE4/FFFFFF?text=Casual+Wear", "url": "#" },
+                { "name": "Formal Events", "imageUrl": "https://placehold.co/150x150/957DAD/FFFFFF?text=Formal+Events", "url": "#" },
+                { "name": "Sportswear", "imageUrl": "https://placehold.co/150x150/D291BC/FFFFFF?text=Sportswear", "url": "#" },
+                { "name": "Party Wear", "imageUrl": "https://placehold.co/150x150/FFC72C/FFFFFF?text=Party+Wear", "url": "#" },
+                { "name": "Loungewear", "imageUrl": "https://placehold.co/150x150/FF6F61/FFFFFF?text=Loungewear", "url": "#" },
+                { "name": "Work Attire", "imageUrl": "https://placehold.co/150x150/6B5B95/FFFFFF?text=Work+Attire", "url": "#" }
+            ]
+        },
+        {
+            "name": "Style",
+            "id": "style-content",
+            "items": [
+                { "name": "Bohemian", "imageUrl": "https://placehold.co/150x150/A7D9B4/FFFFFF?text=Bohemian", "url": "#" },
+                { "name": "Minimalist", "imageUrl": "https://placehold.co/150x150/7CC576/FFFFFF?text=Minimalist", "url": "#" },
+                { "name": "Vintage", "imageUrl": "https://placehold.co/150x150/4CAF50/FFFFFF?text=Vintage", "url": "#" },
+                { "name": "Streetwear", "imageUrl": "https://placehold.co/150x150/8BC34A/FFFFFF?text=Streetwear", "url": "#" },
+                { "name": "Classic", "imageUrl": "https://placehold.co/150x150/CDDC39/FFFFFF?text=Classic", "url": "#" }
+            ]
+        },
+        {
+            "name": "Collection",
+            "id": "collection-content",
+            "items": [
+                { "name": "Summer Breeze", "imageUrl": "https://placehold.co/150x150/F7CAC9/FFFFFF?text=Summer+Breeze", "url": "#" },
+                { "name": "Winter Warmth", "imageUrl": "https://placehold.co/150x150/F77F00/FFFFFF?text=Winter+Warmth", "url": "#" },
+                { "name": "Spring Bloom", "imageUrl": "https://placehold.co/150x150/FCBF49/FFFFFF?text=Spring+Bloom", "url": "#" },
+                { "name": "Autumn Hues", "imageUrl": "https://placehold.co/150x150/E2DDCF/FFFFFF?text=Autumn+Hues", "url": "#" }
+            ]
+        },
+        {
+            "name": "Colour",
+            "id": "colour-content",
+            "items": [
+                { "name": "Red", "imageUrl": "https://placehold.co/150x150/FF0000/FFFFFF?text=Red", "url": "#" },
+                { "name": "Blue", "imageUrl": "https://placehold.co/150x150/0000FF/FFFFFF?text=Blue", "url": "#" },
+                { "name": "Green", "imageUrl": "https://placehold.co/150x150/00FF00/FFFFFF?text=Green", "url": "#" },
+                { "name": "Yellow", "imageUrl": "https://placehold.co/150x150/FFFF00/000000?text=Yellow", "url": "#" }
+            ]
+        },
+        {
+            "name": "QuickLink",
+            "id": "quicklink-content",
+            "items": [
+                { "name": "New Arrivals", "imageUrl": "https://placehold.co/150x150/A0A0A0/FFFFFF?text=New+Arrivals", "url": "#" },
+                { "name": "Best Sellers", "imageUrl": "https://placehold.co/150x150/C0C0C0/FFFFFF?text=Best+Sellers", "url": "#" },
+                { "name": "Sale Items", "imageUrl": "https://placehold.co/150x150/E0E0E0/FFFFFF?text=Sale+Items", "url": "#" }
+            ]
+        },
+        {
+            "name": "Relations",
+            "id": "relations-content",
+            "items": [
+                { "name": "Father", "imageUrl": "https://placehold.co/150x150/8B4513/FFFFFF?text=Father", "url": "#" },
+                { "name": "Brother", "imageUrl": "https://placehold.co/150x150/D2B48C/FFFFFF?text=Brother", "url": "#" },
+                { "name": "Son", "imageUrl": "https://placehold.co/150x150/F5DEB3/000000?text=Son", "url": "#" }
+            ]
+        },
+        {
+            "name": "Shopper",
+            "id": "shopper-content",
+            "items": [
+                { "name": "Bride", "imageUrl": "https://placehold.co/150x150/FFDAB9/000000?text=Bride", "url": "#" },
+                { "name": "Groom", "imageUrl": "https://placehold.co/150x150/ADD8E6/000000?text=Groom", "url": "#" },
+                { "name": "Guest", "imageUrl": "https://placehold.co/150x150/90EE90/000000?text=Guest", "url": "#" }
+            ]
+        },
+        {
+            "name": "Exclusive collection",
+            "id": "exclusive-collection-content",
+            "items": [
+                { "name": "Designer Picks", "imageUrl": "https://placehold.co/150x150/B0E0E6/000000?text=Designer+Picks", "url": "#" },
+                { "name": "Limited Edition", "imageUrl": "https://placehold.co/150x150/87CEEB/000000?text=Limited+Edition", "url": "#" }
+            ]
+        },
+        {
+            "name": "New Arrivals",
+            "id": "new-arrivals-content",
+            "items": [
+                { "name": "Summer 2025", "imageUrl": "https://placehold.co/150x150/ADD8E6/000000?text=Summer+2025", "url": "#" },
+                { "name": "Winter 2024", "imageUrl": "https://placehold.co/150x150/87CEEB/000000?text=Winter+2024", "url": "#" }
+            ]
+        },
+        {
+            "name": "Category",
+            "id": "category-content",
+            "items": [
+                { "name": "Dresses", "imageUrl": "https://placehold.co/150x150/FFB6C1/000000?text=Dresses", "url": "#" },
+                { "name": "Tops", "imageUrl": "https://placehold.co/150x150/FFC0CB/000000?text=Tops", "url": "#" }
+            ]
+        },
+        {
+            "name": "Discount",
+            "id": "discount-content",
+            "items": [
+                { "name": "20% Off", "imageUrl": "https://placehold.co/150x150/FF69B4/FFFFFF?text=20%25+Off", "url": "#" },
+                { "name": "50% Off", "imageUrl": "https://placehold.co/150x150/FF1493/FFFFFF?text=50%25+Off", "url": "#" }
+            ]
+        }
+    ],
+    "mainNavSubmenuMap": {
+        "BestSeller": ["Occasion", "Style", "Collection", "Colour"], 
+        "Bridal": ["Occasion", "Style", "Collection", "Colour"],
+        "Saree": ["Occasion", "Style", "Collection", "Colour", "QuickLink"],
+        "Salwar kameez": ["Occasion", "Style", "Collection", "Colour", "QuickLink"],
+        "Lehengas": ["Occasion", "Style", "Collection", "Colour", "QuickLink"],
+        "Indo Western": ["Occasion", "Style", "Collection", "Colour"], 
+        "Blouse": ["Occasion", "Style", "Collection", "Colour"],
+        "Men": ["Occasion", "Style", "Collection", "Colour", "Relations"],
+        "Co-Ords sets": ["Occasion", "Style", "Collection", "Colour"], 
+        "Gowns": ["Occasion", "Style", "Collection", "Colour"], 
+        "Wedding": ["Occasion", "Shopper"],
+        "Ready To Ship": ["Occasion", "Style", "Collection", "Colour"], 
+        "Collection": ["Collection", "Occasion", "Exclusive collection"],
+        "New": ["New Arrivals"],
+        "Sale": ["Category", "Discount"]
+    }
+}

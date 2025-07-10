@@ -1,0 +1,366 @@
+/* Combined CSS File */
+
+/* Content from navbar.css */
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.mobile-nav{
+    display: none;
+}
+.header {
+    background-color: var(--color-white);
+    padding: 0.625rem 1.25rem;
+}
+.navbar {
+    background-color: var(--color-white);
+    padding: 0.625rem 1.25rem;
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.navbar__two{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0.625rem 1.25rem;
+    margin: 0 auto;
+    position: relative;
+}
+.nav__categories {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav__categories__two {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    justify-content: space-around;
+}
+.nav__category {
+    text-decoration: none;
+    color: var(--color-black);
+    font-weight: bold;
+    padding: 0.3125rem 0.9375rem;
+    margin-right: 0.625rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    border-radius: 0.25rem;
+}
+.nav__category__two a{
+    text-decoration: none;
+    color: var(--color-black);
+    font-family: var(--font-base-regular);
+    display: block;
+    padding: 0.3125rem 0.625rem;
+    transition: background-color 0.3s, color 0.3s, border-bottom 0.3s;
+    border-bottom: 0.1875rem solid transparent;
+}
+.nav__category__two a:hover{
+    color: var(--color-orange);
+    border-bottom: 0.1875rem solid var(--color-orange);
+}
+.nav__category:hover {
+    background-color: var(--color-brown);
+    color: var(--color-white);
+}
+.nav__logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+.nav__logo a{
+    color: black;
+}
+.nav__search {
+    position: relative;
+    width: 18.75rem;
+}
+.nav__search input {
+    width: 100%;
+    padding: 0.5rem 0.625rem;
+    border: 1px solid var(--color-gray-light);
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+.nav__search-btn {
+    position: absolute;
+    right: 0.625rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.nav__icons {
+    display: flex;
+    align-items: center;
+}
+.nav__icons:hover{
+    color: var(--color-orange);
+}
+.nav__icon {
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: 0.9375rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+.nav__icons__icons{
+    color:var(--color-black);
+    font-size: 1.5rem;
+}
+.nav__icon:nth-child(4) {
+    position: relative;
+}
+.nav__icon:nth-child(4):after {
+    content: attr(data-count);
+    position: absolute;
+    top: -0.3125rem;
+    right: -0.3125rem;
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    border-radius: 50%;
+    width: 0.9375rem;
+    height: 0.9375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+@media (max-width: 1024px) {
+    .navbar {
+        flex-direction: column;
+        padding: 0.625rem;
+    }
+    .nav__categories {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav__category {
+        margin: 0.3125rem 0;
+    }
+    .nav__search {
+        width: 100%;
+        margin: 0.625rem 0;
+    }
+    .dropdown-menu {
+        width: 100%;
+        left: 0;
+        transform: translateX(0);
+        border-radius: 0;
+    }
+}
+@media (max-width: 767px) {
+    .nav__categories {
+        display: none;
+    }
+    .nav__icons {
+        margin-top: 0.625rem;
+    }
+    .nav__categories__two {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav__categories__two li {
+        margin: 0.3125rem;
+    }
+}
+.nav__category.disabled-link {
+  color: gray;
+  pointer-events: none;
+  text-decoration: none;
+}
+.nav__category.disabled-link:hover {
+  color: gray;
+  text-decoration: none;
+  cursor: not-allowed;
+}
+
+/* Content from responsiveness.css */
+@media (max-width: 1024px) {
+    .navbar .nav__categories,
+    .navbar__two {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        position: absolute;
+        left: 2rem;
+    }
+    .mobile-nav {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 60%;
+        height: 100%;
+        background-color: #fff;
+        z-index: 1000;
+        overflow-y: auto;
+    }
+    .mobile-nav.open {
+        display: block;
+    }
+    .close-btn {
+        display: block;
+        position: absolute;
+        top: 0.9375rem;
+        right: 0.9375rem;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    .mobile-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 3.125rem 0 0 0;
+    }
+    .mobile-nav ul li a {
+        display: block;
+        padding: 0.9375rem 1.25rem;
+        border-bottom: 1px solid #eee;
+        color: #333;
+        text-decoration: none;
+    }
+    .submenu-content-wrapper .subMenuItem img {
+        display: none;
+    }
+}
+@media (min-width: 1025px) {
+    .hamburger,
+    .close-btn {
+        display: none;
+    }
+}
+@media (max-width: 426px){
+    .mobile-nav{
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        z-index: 1000;
+        overflow-y: auto;
+    }
+}
+
+/* Content from submenu.css */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0 0 0.5rem 0.5rem;
+    background-color: var(--color-white);
+    z-index: 1000;
+    padding: 15px;
+    border: 1px solid #eee;
+    min-width: 600px;
+    max-width: 90vw;
+    box-sizing: border-box;
+    gap: 20px;
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+.dropdown-menu.visible {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    width: 80%;
+}
+.dropdown-menu.active {
+    display: flex;
+}
+.submenu {
+    display: flex;
+    width: 100%;
+}
+.submenuItems {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    border-right: 1px solid #eee;
+    padding-right: 20px;
+}
+.submenuItemList {
+    padding: 10px 0;
+    cursor: pointer;
+    font-weight: normal;
+    transition: background-color 0.2s ease;
+}
+.submenuItemList:hover,
+.submenuItemList.active {
+    font-weight: bold;
+    color: var(--color-brown);
+    background-color: #f8f8f8;
+}
+.submenu-content-wrapper {
+    flex: 4;
+    padding-left: 20px;
+    display: flex;
+    position: relative;
+    height: 20rem;
+    overflow-y: scroll;
+}
+.submenuContentPanel {
+    display: none;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.submenuContentPanel.active {
+    display: flex;
+}
+.subMenuItem {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: calc(33.33% - 10px);
+}
+.subMenuItem img {
+    width: 15rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.subMenuItem span {
+    font-size: 0.85em;
+    color: #333;
+}
+.submenu-mobile-container {
+    display: none;
+    padding-left: 15px;
+    border-left: 2px solid #ddd;
+    margin-top: 10px;
+}
+.submenu-mobile-container.open {
+    display: block;
+}

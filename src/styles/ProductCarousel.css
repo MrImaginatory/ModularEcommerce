@@ -1,0 +1,107 @@
+.product-carousel-wrapper {
+  width: 100%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.carousel-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.product-carousel {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  transition: all 0.3s ease-in-out ;
+}
+
+.carousel-container {
+  display: flex;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  padding: 10px 0;
+  gap: 20px;
+  justify-content: center;
+    transition: all 0.3s ease-in-out ;
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  transition: transform 0.3s ease;
+  padding: 0 5px;
+  
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-100%);
+  width: 40px;
+  height: 40px;
+  background: white;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.carousel-btn:hover {
+  background: #f5f5f5;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+/* Responsive Breakpoints */
+@media (min-width: 1024px) {
+  .carousel-item {
+    width: calc(100% / 5 - 15px) !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .carousel-item {
+    width: calc(100% / 3 - 15px) !important;
+  }
+
+  .product-carousel{
+    width: 100%;
+  }
+  
+  .carousel-title {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel-item {
+    width: calc(100% / 2 - 5px) !important;
+  }
+  
+  .product-carousel {
+    width: 100%;
+  }
+  
+  .carousel-btn {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .carousel-title {
+    font-size: 1.5rem;
+  }
+}
