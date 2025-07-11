@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
 import '../styles/CollectionPage.css';
 
 const CollectionPage = () => {
   const { dynamicCollectionName } = useParams();
+  const navigate = useNavigate();
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -38,6 +39,10 @@ const CollectionPage = () => {
     fetchCollectionProducts();
   }, [dynamicCollectionName]);
 
+  const handleImageClick = () => {
+    navigate('/');
+  };
+
   if (loading) {
     return <div className="loading-message">Loading collection...</div>;
   }
@@ -47,7 +52,18 @@ const CollectionPage = () => {
   }
 
   if (products.length === 0) {
-    return <div className="no-products-message">No products found in this collection.</div>;
+    return (
+      <div className="no-products-container">
+        <img 
+          src="/staticAssets/ProductNotFound.gif" 
+          alt="No products found" 
+          className="not-found-image"
+          onClick={handleImageClick}
+          style={{ cursor: 'pointer' }}
+        />
+        <p className="no-products-message">No products found in this collection.</p>
+      </div>
+    );
   }
 
   return (

@@ -1,0 +1,61 @@
+/* src/fonts.css */
+
+/* Headline Fonts */
+@font-face {
+  font-family: "Futura Now Headline Medium";
+  src: url('/fonts/FuturaNowHeadline-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura LT Pro 650 Extra-bold";
+  src: url('/fonts/FuturaLTProHeavy.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Text/Body Fonts */
+@font-face {
+  font-family: "Futura Now text Regular";
+  src: url('/fonts/FuturaNowText-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura LT Pro Medium";
+  src: url('/fonts/FuturaLTPro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Display/Branding Fonts */
+@font-face {
+  font-family: "Noto Serif Display Regular";
+  src: url('/fonts/NotoSerifDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NewYork Regular";
+  src: url('/fonts/NewYork.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* General Use Fonts */
+@font-face {
+  font-family: "Futura LT Pro Book Regular";
+  src: url('/fonts/FuturaLTProBook.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

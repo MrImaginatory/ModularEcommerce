@@ -10,19 +10,15 @@
   --color-orange: #FFA500;
   --color-pink: #ffe5e5;
 
-  /* Headline Fonts */
   --font-headline-medium: "Futura Now Headline Medium", sans-serif;
   --font-headline-extra-bold: "Futura LT Pro 650 Extra-bold", sans-serif;
 
-  /* Text/Body Fonts */
   --font-text-regular: "Futura Now text Regular", sans-serif;
   --font-text-medium: "Futura LT Pro Medium", sans-serif;
 
-  /* Display/Branding Fonts */
   --font-display-regular: "Noto Serif Display Regular", serif;
   --font-branding-regular: "NewYork Regular", serif;
 
-  /* General Use Fonts */
   --font-base-regular: "Futura LT Pro Book Regular", sans-serif;
 
 }

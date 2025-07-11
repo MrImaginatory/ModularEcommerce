@@ -63,3 +63,33 @@
     padding: 10px;
   }
 }
+
+.no-products-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  text-align: center;
+}
+
+.not-found-image {
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+}
+
+.not-found-image:hover {
+  cursor: pointer;
+}
+
+.no-products-message {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.click-message {
+  font-size: 0.9rem;
+  color: #999;
+  font-style: italic;
+}

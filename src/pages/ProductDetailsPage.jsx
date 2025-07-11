@@ -341,12 +341,12 @@ const ProductDetails = () => {
 
                     {/* Price */}
                     <div className="price-section">
-                        <span className="current-price">{product.price === "$NaN" ? "$500.00" : product.price}</span>
+                        <span className="current-price">₹{product.price === "$NaN" ? "$500.00" : product.price}</span>
                         {product.originalPrice && (
-                            <span className="original-price">{product.originalPrice}</span>
+                            <span className="original-price">₹{product.originalPrice}</span>
                         )}
                         {product.discount && (
-                            <span className="discount-badge">{product.discount}</span>
+                            <span className="discount-badge">₹{product.discount}</span>
                         )}
                     </div>
 

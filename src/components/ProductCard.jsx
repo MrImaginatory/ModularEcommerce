@@ -30,28 +30,28 @@ const ProductCard = ({
 
   return (
     <div 
-      className="product-card"
+      className="pc-product-card"
       onClick={handleClick}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="image-container">
+      <div className="pc-image-container">
         <img
           src={getImageUrl(isHovered ? hoverImageUrl : imageUrl)}
           alt={title}
-          className="product-image"
+          className="pc-product-image"
           onError={(e) => {
             e.target.onerror = null;
             e.target.src = '/placeholder-image.jpg';
           }}
         />
       </div>
-      <div className="product-info">
-        <h3 className="product-title">{title}</h3>
-        <div className="price-container">
-          <span className="current-price">{price}</span>
+      <div className="pc-product-info">
+        <h3 className="pc-product-title">{title}</h3>
+        <div className="pc-price-container">
+          <span className="pc-current-price">₹{price}</span>
           {originalPrice && (
-            <span className="original-price">{originalPrice}</span>
+            <span className="pc-original-price">₹{originalPrice}</span>
           )}
         </div>
       </div>

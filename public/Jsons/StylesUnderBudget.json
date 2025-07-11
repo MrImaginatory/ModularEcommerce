@@ -2,25 +2,25 @@
   {
     "title": "Salwar Suits",
     "buttonText": "SHOP NOW",
-    "imageUrl": "/WebSiteImages/CollectionCards/collectionCards (1).jpg",
+    "imageUrl": "/WebSiteImages/CollectionCards/Kurtis.jpg",
     "cardUrl": "#"
   },
   {
     "title": "Saree Edit",
     "buttonText": "SHOP NOW",
-    "imageUrl": "/WebSiteImages/CollectionCards/collectionCards (2).jpg",
+    "imageUrl": "/WebSiteImages/CollectionCards/Saree.jpg",
     "cardUrl": "#"
   },
   {
     "title": "Menswear Fits",
     "buttonText": "SHOP NOW",
-    "imageUrl": "/WebSiteImages/CollectionCards/collectionCards (3).jpg",
+    "imageUrl": "/WebSiteImages/CollectionCards/Kurta.jpg",
     "cardUrl": "#"
   },
   {
     "title": "Lehenga Twirls",
     "buttonText": "SHOP NOW",
-    "imageUrl": "/WebSiteImages/CollectionCards/collectionCards (4).jpg",
+    "imageUrl": "/WebSiteImages/CollectionCards/Lehenga.jpg",
     "cardUrl": "#"
   }
 ]

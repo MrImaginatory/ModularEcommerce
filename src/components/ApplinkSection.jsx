@@ -19,10 +19,10 @@ const AppLinkSection = () => {
                 </p>
                 <div className="app-buttons">
                     <a href="https://play.google.com/store" target="_blank" className="app-button">
-                        <img src="/staticAssets/PlayStore (2).svg" alt="Google Play" />
+                        <img src="/staticAssets/PlayStore.svg" alt="Google Play" />
                     </a>
                     <a href="https://www.apple.com/app-store/" target="_blank" className="app-button">
-                        <img src="/staticAssets/AppStore (2).svg" alt="App Store" />
+                        <img src="/staticAssets/AppStore.svg" alt="App Store" />
                     </a>
                 </div>
             </div>
